@@ -56,6 +56,9 @@ CONTENT_DIR = '/opt/graphite/webapp/content'
 Sync the db:
 ```
 cd /opt/graphite/webapp/graphite/
+```
+Give permissions to apache to read/write graphite's storage:
+```
 chown -R www-data:www-data /opt/graphite/storage/
 ```
 
