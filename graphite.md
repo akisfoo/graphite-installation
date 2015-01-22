@@ -24,15 +24,15 @@ CREATE DATABASE graphite WITH OWNER graphite;
 \q
 ```
 
-## Graphite Web App
-Configure Graphite web app:
+## Graphite
+Configure graphite web app:
 
 ```
 cd /opt/graphite/webapp/graphite
 cp local_settings.py.example local_settings.py
 ```
 
-Change the following values on local_settings.py
+Change the following values on local_settings.py:
 ```python
 SECRET_KEY = 'your_secret_key'
 TIME_ZONE = 'Europe/Berlin'
