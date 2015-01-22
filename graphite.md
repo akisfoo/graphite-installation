@@ -10,7 +10,7 @@ apt-get install postgresql libpq-dev python-psycopg2
 apt-get install apache2 libapache2-mod-wsgi
 pip install django
 pip install django-tagging
-pip install https://github.com/~/master
+pip install https://github.com/graphite-project/ceres/tarball/master
 pip install whisper
 pip install carbon
 pip install graphite-web
