@@ -47,19 +47,16 @@ DATABASES = {
       'PORT': ''
    }
 }
+GRAPHITE_ROOT = '/opt/graphite'
+CONF_DIR = '/opt/graphite/conf'
+STORAGE_DIR = '/opt/graphite/storage'
+CONTENT_DIR = '/opt/graphite/webapp/content'
 ```
 
 Sync the db:
 ```
 cd /opt/graphite/webapp/graphite/
 chown -R www-data:www-data /opt/graphite/storage/
-```
-
-
-GRAPHITE_ROOT = '/opt/graphite'
-CONF_DIR = '/opt/graphite/conf'
-STORAGE_DIR = '/opt/graphite/storage'
-CONTENT_DIR = '/opt/graphite/webapp/content'
 ```
 
 ## Carbon
