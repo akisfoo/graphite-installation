@@ -18,7 +18,7 @@ pip install graphite-web
 
 ## PostgreSQL
 Create the following db/user:
-```  
+```
 CREATE USER graphite WITH PASSWORD 'password';
 CREATE DATABASE graphite WITH OWNER graphite;
 \q
@@ -33,8 +33,8 @@ cp local_settings.py.example local_settings.py
 ```
 
 Change the following values on local_settings.py
-```
-SECRET_KEY = 'your_secrey_key'
+```python
+SECRET_KEY = 'your_secret_key'
 TIME_ZONE = 'Europe/Berlin'
 USE_REMOTE_USER_AUTHENTICATION = True
 DATABASES = {
