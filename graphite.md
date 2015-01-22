@@ -66,6 +66,10 @@ cd /opt/graphite/conf/
 cp carbon.conf.example carbon.conf
 cp storage-schemas.conf.example storage-schemas.conf
 cd ..
+```
+
+Start carbon:
+```
 ./bin/carbon-cache.py start
 ```
 
@@ -82,7 +86,7 @@ ln -s /etc/apache2/sites-available/graphite .
 ```
 
 ## Sigh...
-And that was it...
+Start graphite... 
 ```
 python /opt/graphite/bin/run-graphite-devel-server.py --port 8080 /opt/graphite/ &
 ```
