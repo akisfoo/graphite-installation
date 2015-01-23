@@ -1,6 +1,6 @@
 Graphite Installation
 =====================
-Just the steps to install/configure the damn thing on debian.
+Just the steps to install/configure the damn thing on debian. I'm not sure if I will create a quick script for it, probably I will for my convenience and put it on the same repo.
 
 ## Packages
 Install the following packages:
